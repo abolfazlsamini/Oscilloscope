@@ -1,4 +1,4 @@
-# Oscilloscope using ESP-32 in esp-idf vscode over localnetwork (websocket)
+# Oscilloscope using ESP-32 over localnetwork (websocket) in esp-idf vscode
 
 It's a very simple project to visualize an analog input from an ESP-32.\
 It uses [ECharts](https://echarts.apache.org/en/index.html) as the front-end to visualize the input.

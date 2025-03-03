@@ -17,7 +17,7 @@ git clone https://github.com/abolfazlsamini/Oscilloscope.git
 ```
 \
 Open project with vs-code. Build and flash your esp-32.\
-** Also you have to have [esp_websocket_client](https://components.espressif.com/components/espressif/esp_websocket_client) installed.** \
+**Also you have to have [esp_websocket_client](https://components.espressif.com/components/espressif/esp_websocket_client) installed.** \
 After that, go to Oscilloscope_front folder and open terminal and install dependencies (make sure you have npm installed from [here](https://nodejs.org/en/download)
 ```
 npm i

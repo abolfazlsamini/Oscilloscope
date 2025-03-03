@@ -1,0 +1,11 @@
+{
+  "name": "oscilloscope",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "ws": "^8.18.1"
+  }
+}

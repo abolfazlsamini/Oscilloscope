@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sender</title>
+</head>
+<body>
+    <h1>Sender</h1>
+    <script>
+        const ws = new WebSocket('ws://localhost:8080');
+
+        function sendMessage(time, data) {
+
+            const message = { time: time, raw_value: data };
+
+            ws.send(JSON.stringify(message));
+        }
+
+        // Simulate real-time data
+        let time = 0;
+        setInterval(() => {
+            time += 1;
+            const newData = Math.random() * 100; // Generate random data
+            sendMessage(time, newData); // Add new data point
+        }, 1); // Add a new data point every second
+    </script>
+</body>
+</html>
